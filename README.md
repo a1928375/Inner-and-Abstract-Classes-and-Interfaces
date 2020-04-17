@@ -24,15 +24,15 @@
 
         (4) The rules for adding an item to the linked list are:
       
-                If the head of the list is null, make the head refer to the item to be added.
+                (i) If the head of the list is null, make the head refer to the item to be added.
                 
-                If the item to be added is less than the current item in the list, add the item before the current item (i.e., make the previous item's "next" refer to the new item, and the new item's"next" refer to the current item).
+                (ii) If the item to be added is less than the current item in the list, add the item before the current item (i.e., make the previous item's "next" refer to the new item, and the new item's"next" refer to the current item).
                 
-                If the item to be added is greater than the current item, move onto the next item and compare again (if there is no next item then that is where the new item belongs).
+                (iii) If the item to be added is greater than the current item, move onto the next item and compare again (if there is no next item then that is where the new item belongs).
 
-                Care will be needed when inserting before the first item in the list (as it will not have a previous item).
+                (iv) Care will be needed when inserting before the first item in the list (as it will not have a previous item).
 
-                You will also need a method to remove an item from the list.
+                (v) You will also need a method to remove an item from the list.
 
         (5) Hint: 
         
@@ -49,9 +49,9 @@
     
         (6) Optional: create a class to use your concrete class to implement a Binary Search Tree:
                  
-                 When adding items to a Binary Search Tree, if the item to be added is less than the current item then move to the left, if it is greater than the current item then move to the right.
+                (i) When adding items to a Binary Search Tree, if the item to be added is less than the current item then move to the left, if it is greater than the current item then move to the right.
                 
-                The new item is added when an attempt to move in the required direction would involve following anull reference.
+                (ii) The new item is added when an attempt to move in the required direction would involve following anull reference.
                 
-                Once again, duplicates are not allowed.
+                (iii) Once again, duplicates are not allowed.
 
